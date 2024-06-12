@@ -20,7 +20,7 @@
 /docker/mysql/data/
 
 ###> symfony/framework-bundle ###
-/.env.*.local
+/.env*
 /.env.local
 /.env.local.php
 /public/bundles
@@ -40,7 +40,6 @@
 
 ###> lexik/jwt-authentication-bundle ###
 /config/jwt/*.pem
-!/config/jwt/*-test.pem
 ###< lexik/jwt-authentication-bundle ###
 
 ###> symfony/webpack-encore-bundle ###
